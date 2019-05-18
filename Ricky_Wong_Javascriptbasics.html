@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" context="Practice CSS">
+<link rel="stylesheet" type="text/css" href="jsbasics.css">
+<title> JavaScript Basics</title>
+</head>
+
+<body>
+    <div id="wrapper"> <!-- Navy background-->
+        <div id="header"> <!-- Header: refer to #header h{} in css -->
+            <h>JavaScript Basics</h>
+        </div>
+        <div id="sidebar"> <!-- Sidebar-->
+            <div class="home"> <!-- Sidebar: Home -->
+                <h><a>Home</a></h>
+            </div>
+                    <div class="unorderlist">  <!-- Start unorderd list -->
+                        <ul> 
+                            <li><a>JavaScript Overview</a></li>
+                            <div class="list2"> <!-- Start sidebar sub-content: List2-->
+                                <ul>
+                                    <li><a>Variable Declaration</a></li>
+                                    <li><a>Variable Assignment</a></li>
+                                    <li><a>Data Type</a></li>
+                                    <li><a>Conditionals</a></li>
+                                    <li><a>Loops</a></li>
+                                    <li><a>Functions</a></li>
+                                </ul>
+                            </div>
+                            <li><a>Projects</a></li>   
+                            <li><a>Assignments</a></li>
+                            <li><a>Quiz</a></li>                            
+                        </ul>
+                    </div>   
+        </div>
+        <div id="main"> <!-- Start main body -->
+            <h>JavaScript Basics</h>
+            <div class="context"> <!-- Body content -->
+                <p> JavaScript is a cross-platform, object-oriented scripting language. Javascript is extremely popular for a 
+                    variety of reasons. It is a small and lightweight language allowing maximum flexibility for developers to take t in a bunch
+                    of different directions. JavaScript lives inside a host environment (a web browser or Node server), it can be connected
+                    to the objects of these environments to provide programmatic control over them.
+                </p>
+            </div>
+            <div class="mainlist">
+                <ul>
+                    <li> <!-- Body list -->            
+                        <p><a>Variable Declaration</a> JavaScript variables are containers for storing data values - imagine
+                            a cup you fill with coffee, the cup holds the coffee, a variable holds a value. All JavaScript variables must be identified with unique names.
+                            These unique names are called identifiers. <span id="info">var x;</span>
+                        </p>
+                    </li>
+                    <li>                
+                        <p><a>Variable Assignment</a> Assignment operators assign values to JavaScript variables - our cup can now have coffee poured in it,
+                            giving our variable a value to hold. The = assignment operator assigns a value to a variable. <span id="info">var x = 10;</span>
+                        </p>
+                    </li>
+                    <li>                
+                        <p><a>Data Types</a> Data types are an important concept; to be able to operate on variables you need to know the data type. There are six
+                            data types that are JavaScript primitives: Boolean - <span id="info">true</span> or <span id="info">false;</span> null - <span id="info">null</span> aka othing;
+                            Number - <span id="info">42</span> or <span id="info">3.14159;</span> String - <span id="info">"Coding Dojo Rocks!";</span> Array - <span id="info">[1, 'Coding', 2, 'Dojo'];</span>
+                             and Object - <span id="info">{first_name: 'Jane', last_name:'Doe'}</span>
+                        </p>
+                    </li>
+                    <li>                
+                        <p><a>Conditionals</a> When you write code, you want to perform different actions for different decisions - hitting different code blocks based on vlaues or conditions that have been met.
+                            You can use conditional statements in your code to accomplish this. There are the following conditional statements: <span id="info">if</span> a specified condition is true, do this code in our code block; 
+                            <span id="info">else if</span> to specify a new condition to test, if the first condition is false; <span id="info">else</span> we execute this block of code;
+                        </p>
+                    </li>
+                    <li>                
+                        <p><a>Loops</a> There are many different kinds of loops in every programming lanuage, but they all essentially do the same thing: they will repeat an action some number of times. Imagine
+                            you have to run a mile, well you run around the track four times and then you stop. That's a loop!
+                        </p>
+                    </li>
+                    <li>                
+                        <p><a>Function</a> Functions are an encaspulation of a code block. When we call our function this will run that code block. Think of it as a list of instructions. As an example
+                            imagine we are putting together a desk from Ikea, we open up the instruction manual and get started, first we screw the legs to the table top; 
+                            next we place the table the right way up. Done! We finished our instructions. Sadly there are a ton more tables to do so lets call our function over and over and over again. THE END!
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    <div id="footer">
+        <p>For more useful information check out this url: <a>JavaScript!</a> </p>
+    </div>
+    
+    </div>
+
+</body>
+
+</html>
